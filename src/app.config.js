@@ -5,8 +5,8 @@ const configs = {
 if (process.env.NODE_ENV === 'production') {
   configs.apiUrl = 'https://api.***.com/api/v1';
 } else {
-  configs.apiUrl = 'http://192.168.0.104:8000/';
-  configs.apiIoUrl = 'http://192.168.0.104:8080/';
+  configs.apiUrl = 'http://academyofdev.net:8000/';
+  configs.apiIoUrl = 'http://academyofdev.net:8081/';
 }
 
 export default configs;
