@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F8F8F8; }
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table; }
+
+.clearfix:after {
+  clear: both; }
+
+.App .myAccount .myAccountContainer {
+  max-width: 786px;
+  margin: 35px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .App .myAccount .myAccountContainer .loginBox {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 200px; }
+    .App .myAccount .myAccountContainer .loginBox .loginContainer {
+      max-width: 300px;
+      margin: 0 auto; }
+      .App .myAccount .myAccountContainer .loginBox .loginContainer input {
+        margin: 5px 0; }
+  .App .myAccount .myAccountContainer .chatBox {
+    width: 80%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; }
+    .App .myAccount .myAccountContainer .chatBox .chatList {
+      width: 100%;
+      height: 93%;
+      overflow: auto;
+      padding: 5px; }
+      .App .myAccount .myAccountContainer .chatBox .chatList .messageBox {
+        display: flex; }
+        .App .myAccount .myAccountContainer .chatBox .chatList .messageBox .message {
+          display: inline-block;
+          padding: 5px;
+          margin: 5px 0;
+          border-radius: 10px;
+          max-width: 60%; }
+        .App .myAccount .myAccountContainer .chatBox .chatList .messageBox.client {
+          justify-content: flex-start; }
+          .App .myAccount .myAccountContainer .chatBox .chatList .messageBox.client .message {
+            border: 1px solid black; }
+        .App .myAccount .myAccountContainer .chatBox .chatList .messageBox.guest {
+          justify-content: flex-end; }
+          .App .myAccount .myAccountContainer .chatBox .chatList .messageBox.guest .message {
+            color: white;
+            background-color: rgba(36, 121, 231, 0.979);
+            border: 1px solid rgba(36, 121, 231, 0.979); }
+    .App .myAccount .myAccountContainer .chatBox .chatInputBox {
+      width: 100%;
+      height: 6%; }

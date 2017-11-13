@@ -1,0 +1,22 @@
+.signIn {
+  width: 500px;
+  margin: 0 auto; }
+  .signIn .facebookLogin {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    margin: 5px auto;
+    background: #4267b2;
+    color: #ffffff;
+    display: inline-block;
+    cursor: pointer; }
+  .signIn .signinHeader {
+    width: 100%;
+    border-bottom: 3px solid #00ba00;
+    color: #00ba00;
+    padding: 5px; }
+  .signIn .signinFields {
+    padding: 5px; }
+    .signIn .signinFields input {
+      width: 100%;
+      padding: 5px; }
